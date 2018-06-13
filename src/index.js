@@ -1,8 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'mobx-react';
 
-const Index = () => {
-  return <div>Hello React!</div>;
-};
+import stores from './stores';
+import App from './App.js';
 
-ReactDOM.render(<Index />, document.getElementById("index"));
+render((
+    <Provider {...stores}>
+        <App />
+    </Provider>
+), document.getElementById('index'));

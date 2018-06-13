@@ -1,0 +1,27 @@
+:root {
+    /* blue (anchor) color */
+    --blue: #007dc1;
+    --blueDarken: #00619c;
+
+    /* gray color */
+    --gray: #565758;
+    --grayLighten: #dce2e6;
+    --grayDarken: #4c4d4e;
+
+    /* green (primary) color */
+    --green: #009E97;
+    --greenLighten: #15A8A2;
+    --greenDarken: #028d87;
+
+    /* red color */
+    --red: #DD2400;
+    --redLighten: #FA2900;
+
+    /* border error color */
+    --borderErrorColor: #DF6858;
+    --borderErrorDarken: #D7412D;
+
+    /* purple color */
+    --purple: #8235B2;
+    --purpleLighten: #913EC5;
+}
